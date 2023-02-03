@@ -16,7 +16,7 @@ public class PostmanEchoTestV2 {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo ("Test шрифт"))
+                .body("data", equalTo ("Проверка шрифта"))
         ;
     }
 }
